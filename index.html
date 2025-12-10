@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sona ♡ | Modern Music Bot</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">Sona ♡</div>
+        <nav class="nav">
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#commands" class="nav-link">Commands</a>
+            <a href="#support" class="nav-link">Support</a>
+        </nav>
+        <a href="https://discord.com/oauth2/authorize?client_id=1447160952792547328&permissions=8&integration_type=0&scope=bot" class="cta-button">Invite Sona</a>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="word">Your</span>
+                    <span class="word">Discord</span>
+                    <span class="word">Music</span>
+                    <span class="word">Companion.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Listen to high-quality music with zero lag. Sona makes it seamless.
+                </p>
+                <div class="hero-actions">
+                    <a href="https://discord.com/oauth2/authorize?client_id=1447160952792547328&permissions=8&integration_type=0&scope=bot" class="cta-primary">Invite Now</a>
+                    <a href="#commands" class="cta-secondary">View Commands</a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="visual-pulse"></div>
+                <img src="logo.png" alt="Sona Music Bot Icon" class="bot-icon">
+            </div>
+        </section>
+
+        <section id="features" class="page-section">
+            <h2 class="section-title reveal-text">Why Choose Sona?</h2>
+            <p class="section-subtitle reveal-text">A seamless experience for high-quality music playback.</p>
+
+            <div class="features-grid">
+                <div class="feature-card scroll-reveal">
+                    <div class="feature-icon">🎧</div> 
+                    <h3 class="card-title">Crystal Clear Audio</h3>
+                    <p class="card-description">Enjoy lag-free, high-fidelity sound. No more robotic voices or dropped streams.</p>
+                </div>
+
+                <div class="feature-card scroll-reveal">
+                    <div class="feature-icon">🛡️</div> 
+                    <h3 class="card-title">Always Reliable</h3>
+                    <p class="card-description">Sona is hosted on reliable infrastructure, ensuring 99.9% uptime for your sessions.</p>
+                </div>
+
+                <div class="feature-card scroll-reveal">
+                    <div class="feature-icon">🔀</div> 
+                    <h3 class="card-title">YouTube & Spotify</h3>
+                    <p class="card-description">Supports direct links and search queries for both YouTube and Spotify URLs.</p>
+                </div>
+                
+                <div class="feature-card scroll-reveal">
+                    <div class="feature-icon">🔊</div> 
+                    <h3 class="card-title">Volume Control</h3>
+                    <p class="card-description">Precise volume adjustment to perfectly balance the music in your voice channel.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="commands" class="page-section alternate-bg">
+            <h2 class="section-title reveal-text">Quick Command Reference</h2>
+            <p class="section-subtitle reveal-text">Sona uses modern Slash Commands (`/`) for simplicity.</p>
+
+            <div class="command-table-container scroll-reveal">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Command</th>
+                            <th>Description</th>
+                            <th>Category</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="command-row">
+                            <td data-label="Command">/play</td>
+                            <td data-label="Description">Play a song or add to the queue.</td>
+                            <td data-label="Category">Music</td>
+                        </tr>
+                        <tr class="command-row">
+                            <td data-label="Command">/stop</td>
+                            <td data-label="Description">stop the current playing songs.</td>
+                            <td data-label="Category">Queue</td>
+                        </tr>
+                        <tr class="command-row">
+                            <td data-label="Command">/skip</td>
+                            <td data-label="Description">Skip the current song.</td>
+                            <td data-label="Category">Music</td>
+                        </tr>
+                        <tr class="command-row">
+                            <td data-label="Command">/volume</td>
+                            <td data-label="Description">Adjust the bot's volume (0-100).</td>
+                            <td data-label="Category">Settings</td>
+                        </tr>
+                        <tr class="command-row">
+                            <td data-label="Command">/radio</td>
+                            <td data-label="Description">Play live Sri Lankan radio stations.</td>
+                            <td data-label="Category">Music</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="support" class="page-section">
+            <h2 class="section-title reveal-text">Need Help or Have a Suggestion?</h2>
+            <p class="section-subtitle reveal-text">Your feedback makes Sona better!</p>
+
+            <div class="support-links scroll-reveal">
+                <a href="https://discord.gg/5YDtjeuVUH" class="cta-primary">Join Our Support Server</a> 
+                <a href="#commands" class="cta-accent">View All Commands</a>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="footer">
+        <p>© 2025 Sona ♡ Music Bot. Made with passion by SUPESHALA.</p>
+        <p>Bot Version: 1.0.0</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
